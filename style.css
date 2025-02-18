@@ -103,6 +103,10 @@ main {
     flex: 1;
 }
 
+.content-wrapper.hero button {
+    padding: 1em 2em;
+}
+
 .content-wrapper.quote {
     background: #E5E7EB;
 }
