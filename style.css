@@ -47,9 +47,14 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 4em 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     background-color: white;
+}
+
+.content-wrapper:nth-of-type(1) {
+    padding-top: 0;
 }
 
 .content-wrapper .content {
@@ -59,7 +64,7 @@ main {
     justify-content: space-between;
     width: 100%;
     max-width: 1000px;
-    gap: 1em;
+    gap: 2em;
 
     padding: 2em;
 }
@@ -99,6 +104,12 @@ main {
 
 .content-wrapper.hero img {
     width: auto;
+    max-height: 300px;
+
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+
+    object-fit: cover;
 
     flex: 1;
 }
